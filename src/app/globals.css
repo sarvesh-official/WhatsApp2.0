@@ -116,3 +116,19 @@
     background-color: hsl(var(--container));
   }
 }
+
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+
+.cl-internal-hegiim {
+  display: none;
+}
+
+.cl-internal-180wb59 {
+  display: none;
+}
+
+.cl-internal-lqfubk {
+  display: none;
+}
