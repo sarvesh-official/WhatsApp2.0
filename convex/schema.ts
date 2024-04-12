@@ -19,7 +19,7 @@ export default defineSchema({
   }),
 
   messages: defineTable({
-    conversation: v.id("conversations"),
+    conversation : v.id("conversations"),
     sender: v.string(),
     content: v.string(),
     messageType: v.union(
@@ -28,4 +28,6 @@ export default defineSchema({
       v.literal("video")
     ),
   }).index("by_conversation", ["conversation"]),
+
+  
 });
