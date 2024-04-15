@@ -58,7 +58,7 @@ const MediaDropdown = () => {
     }
   };
 
-  const handleSendVideo = async () => {
+  const handleSendVideo = async () => {Med
     setIsLoading(true);
     try {
       const postUrl = await generateUploadUrl();
